@@ -33,7 +33,7 @@ export default function Cesta() {
         </Text>
         <Text style={styles.price}>R$ 40,00</Text>
       </View>
-      <View style={styles.container}>
+      <View style={styles.containerButton}>
         <TouchableOpacity onPress={onPressButton} style={styles.button}>
           <Text style={styles.textoBotao}>Comprar</Text>
         </TouchableOpacity>
@@ -102,12 +102,12 @@ const styles = StyleSheet.create({
   },
 
   button: {
-    marginLeft: 65,
+    marginLeft: 55,
     marginTop: 24,
-    backgroundColor: "green",
-    padding: 10,
-    borderRadius: 5,
-    width: 250,
+    backgroundColor: "#2A9F85",
+    paddingVertical: 16,
+    borderRadius: 6,
+    width: 300,
   },
 
   textoBotao: {
